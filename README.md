@@ -4,7 +4,7 @@ This lab simulated a simple branch predictor with a 2-bit saturating counter. A 
 
 ## Branch Predictor Architecture
 
-The design consist of $2^m^$ 2-bit saturating counters indexed using m LSBs of each branch instruction. Each 2-bit saturating predictor starts in the 11 (Predict Taken with High Confidence) state and is updated as per the finite state machine discussed in Lecture 11. The value of m is specified in a config file config.txt.
+The design consist of 2^m^ 2-bit saturating counters indexed using m LSBs of each branch instruction. Each 2-bit saturating predictor starts in the 11 (Predict Taken with High Confidence) state and is updated as per the finite state machine discussed in Lecture 11. The value of m is specified in a config file config.txt.
 
 ## Config File
 
